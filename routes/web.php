@@ -10,3 +10,5 @@ Route::get('/', function () {
 
 
 Volt::route('/lower/{word}', 'lower');
+
+Volt::route('/fizz_buzz', 'fizz_buzz');
